@@ -1,0 +1,32 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "4.24",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "GameJam",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine"
+			]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "OnlineSubsystemSteam",
+			"Enabled": true
+		},
+		{
+			"Name": "SteamVR",
+			"Enabled": false,
+			"SupportedTargetPlatforms": [
+				"Win32",
+				"Win64",
+				"Linux",
+				"Mac"
+			]
+		}
+	]
+}
